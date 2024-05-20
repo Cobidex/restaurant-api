@@ -7,7 +7,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Restaurant } from './schemas/restaurant.schema';
 import mongoose from 'mongoose';
 import { Query } from 'express-serve-static-core';
-import ApiFeatures from 'src/utils/apiFeatures.utils';
+import ApiFeatures from '../utils/apiFeatures.utils';
 import { CreateRestaurantDto } from './dto/createRestaurantDto';
 import { User } from '../auth/schemas/user.schema';
 
